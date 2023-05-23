@@ -18,4 +18,4 @@ def vanfelix():
 def vanfelix2(voornaam):
     getal = 4
     resultaat = 3* getal
-    return "hoi "+voornaam
+    return "hoi, "+voornaam
