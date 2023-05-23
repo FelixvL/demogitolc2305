@@ -1,0 +1,11 @@
+<script>
+	function doen(){
+		fetch("https://demopythononline.azurewebsites.net/")
+			.then(r => r.text())
+			.then(d => document.getElementById("resultaat").innerHTML = d)
+	}
+</script>
+
+
+<button onclick="doen()">laat zien</button>
+<div id=resultaat></div>
